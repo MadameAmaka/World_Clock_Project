@@ -33,7 +33,7 @@ function updateCity(event){
         <small>${cityTime.format("A")}</small>
         </div>
       </div>
-      <a href="index.html">Reset</a>`;
+      <a href="/">Reset</a>`;
 }
 updateTime();
 setInterval(updateTime, 1000);
